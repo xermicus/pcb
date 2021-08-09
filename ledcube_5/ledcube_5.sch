@@ -817,21 +817,6 @@ F 3 "https://www.onsemi.com/pub/Collateral/PN2222-D.PDF" H 1300 3800 50  0001 L 
 	1    1300 3800
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1400 3250 1400 3600
-Connection ~ 1400 3250
-Wire Wire Line
-	1900 3250 1900 4150
-Connection ~ 1900 3250
-Wire Wire Line
-	2400 3250 2400 3600
-Connection ~ 2400 3250
-Wire Wire Line
-	2900 3250 2900 4150
-Connection ~ 2900 3250
-Wire Wire Line
-	3400 3250 3400 3600
-Connection ~ 3400 3250
 Text Label 7250 2100 0    50   ~ 0
 A12
 Text Label 7250 2000 0    50   ~ 0
@@ -1068,7 +1053,7 @@ U 1 1 613CF10D
 P 7650 2000
 F 0 "J1" H 7738 1964 50  0000 L CNN
 F 1 "Conn_01x05_MountingPin" H 7738 1873 50  0000 L CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x05_P1.00mm_Vertical" H 7650 2000 50  0001 C CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_1x05_P2.00mm_Vertical" H 7650 2000 50  0001 C CNN
 F 3 "~" H 7650 2000 50  0001 C CNN
 	1    7650 2000
 	1    0    0    -1  
@@ -1301,6 +1286,61 @@ F 1 "PWR_FLAG" H 8100 1373 50  0000 C CNN
 F 2 "" H 8100 1200 50  0001 C CNN
 F 3 "~" H 8100 1200 50  0001 C CNN
 	1    8100 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J2
+U 1 1 611412CA
+P 1600 3600
+F 0 "J2" H 1680 3642 50  0000 L CNN
+F 1 "Conn_01x01" H 1680 3551 50  0000 L CNN
+F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 1600 3600 50  0001 C CNN
+F 3 "~" H 1600 3600 50  0001 C CNN
+	1    1600 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J6
+U 1 1 611441A3
+P 3600 3600
+F 0 "J6" H 3680 3642 50  0000 L CNN
+F 1 "Conn_01x01" H 3680 3551 50  0000 L CNN
+F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 3600 3600 50  0001 C CNN
+F 3 "~" H 3600 3600 50  0001 C CNN
+	1    3600 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J5
+U 1 1 61143AA4
+P 3100 4150
+F 0 "J5" H 3180 4192 50  0000 L CNN
+F 1 "Conn_01x01" H 3180 4101 50  0000 L CNN
+F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 3100 4150 50  0001 C CNN
+F 3 "~" H 3100 4150 50  0001 C CNN
+	1    3100 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J3
+U 1 1 61142E71
+P 2100 4150
+F 0 "J3" H 2180 4192 50  0000 L CNN
+F 1 "Conn_01x01" H 2180 4101 50  0000 L CNN
+F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 2100 4150 50  0001 C CNN
+F 3 "~" H 2100 4150 50  0001 C CNN
+	1    2100 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J4
+U 1 1 61143492
+P 2600 3600
+F 0 "J4" H 2680 3642 50  0000 L CNN
+F 1 "Conn_01x01" H 2680 3551 50  0000 L CNN
+F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 2600 3600 50  0001 C CNN
+F 3 "~" H 2600 3600 50  0001 C CNN
+	1    2600 3600
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
