@@ -4,762 +4,57 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "LED Cube 5x5"
+Date "2021-08-10"
+Rev "1"
+Comp "github.com/xermicus/ledcube.rs"
 Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Device:R R10
-U 1 1 6106D4D6
-P 1500 3000
-F 0 "R10" H 1570 3046 50  0000 L CNN
-F 1 "100R" H 1570 2955 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1430 3000 50  0001 C CNN
-F 3 "~" H 1500 3000 50  0001 C CNN
-	1    1500 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R5
-U 1 1 6106D962
-P 1000 3000
-F 0 "R5" H 1070 3046 50  0000 L CNN
-F 1 "100R" H 1070 2955 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 930 3000 50  0001 C CNN
-F 3 "~" H 1000 3000 50  0001 C CNN
-	1    1000 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R15
-U 1 1 6106E57C
-P 2000 3000
-F 0 "R15" H 2070 3046 50  0000 L CNN
-F 1 "100R" H 2070 2955 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1930 3000 50  0001 C CNN
-F 3 "~" H 2000 3000 50  0001 C CNN
-	1    2000 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R20
-U 1 1 6106E6AA
-P 2500 3000
-F 0 "R20" H 2570 3046 50  0000 L CNN
-F 1 "100R" H 2570 2955 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2430 3000 50  0001 C CNN
-F 3 "~" H 2500 3000 50  0001 C CNN
-	1    2500 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R14
-U 1 1 6106E7F3
-P 2000 2500
-F 0 "R14" H 2070 2546 50  0000 L CNN
-F 1 "100R" H 2070 2455 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1930 2500 50  0001 C CNN
-F 3 "~" H 2000 2500 50  0001 C CNN
-	1    2000 2500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R4
-U 1 1 6106E9F4
-P 1000 2500
-F 0 "R4" H 1070 2546 50  0000 L CNN
-F 1 "100R" H 1070 2455 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 930 2500 50  0001 C CNN
-F 3 "~" H 1000 2500 50  0001 C CNN
-	1    1000 2500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R9
-U 1 1 6106EC11
-P 1500 2500
-F 0 "R9" H 1570 2546 50  0000 L CNN
-F 1 "100R" H 1570 2455 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1430 2500 50  0001 C CNN
-F 3 "~" H 1500 2500 50  0001 C CNN
-	1    1500 2500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R19
-U 1 1 61074344
-P 2500 2500
-F 0 "R19" H 2570 2546 50  0000 L CNN
-F 1 "100R" H 2570 2455 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2430 2500 50  0001 C CNN
-F 3 "~" H 2500 2500 50  0001 C CNN
-	1    2500 2500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R24
-U 1 1 61074657
-P 3000 2500
-F 0 "R24" H 3070 2546 50  0000 L CNN
-F 1 "100R" H 3070 2455 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2930 2500 50  0001 C CNN
-F 3 "~" H 3000 2500 50  0001 C CNN
-	1    3000 2500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R25
-U 1 1 61074973
-P 3000 3000
-F 0 "R25" H 3070 3046 50  0000 L CNN
-F 1 "100R" H 3070 2955 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2930 3000 50  0001 C CNN
-F 3 "~" H 3000 3000 50  0001 C CNN
-	1    3000 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R3
-U 1 1 61075A1A
-P 1000 2000
-F 0 "R3" H 1070 2046 50  0000 L CNN
-F 1 "100R" H 1070 1955 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 930 2000 50  0001 C CNN
-F 3 "~" H 1000 2000 50  0001 C CNN
-	1    1000 2000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R8
-U 1 1 61075F20
-P 1500 2000
-F 0 "R8" H 1570 2046 50  0000 L CNN
-F 1 "100R" H 1570 1955 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1430 2000 50  0001 C CNN
-F 3 "~" H 1500 2000 50  0001 C CNN
-	1    1500 2000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R13
-U 1 1 61076292
-P 2000 2000
-F 0 "R13" H 2070 2046 50  0000 L CNN
-F 1 "100R" H 2070 1955 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1930 2000 50  0001 C CNN
-F 3 "~" H 2000 2000 50  0001 C CNN
-	1    2000 2000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R18
-U 1 1 6107660A
-P 2500 2000
-F 0 "R18" H 2570 2046 50  0000 L CNN
-F 1 "100R" H 2570 1955 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2430 2000 50  0001 C CNN
-F 3 "~" H 2500 2000 50  0001 C CNN
-	1    2500 2000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R23
-U 1 1 61076947
-P 3000 2000
-F 0 "R23" H 3070 2046 50  0000 L CNN
-F 1 "100R" H 3070 1955 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2930 2000 50  0001 C CNN
-F 3 "~" H 3000 2000 50  0001 C CNN
-	1    3000 2000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R22
-U 1 1 61076DA5
-P 3000 1500
-F 0 "R22" H 3070 1546 50  0000 L CNN
-F 1 "100R" H 3070 1455 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2930 1500 50  0001 C CNN
-F 3 "~" H 3000 1500 50  0001 C CNN
-	1    3000 1500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R17
-U 1 1 61077229
-P 2500 1500
-F 0 "R17" H 2570 1546 50  0000 L CNN
-F 1 "100R" H 2570 1455 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2430 1500 50  0001 C CNN
-F 3 "~" H 2500 1500 50  0001 C CNN
-	1    2500 1500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R12
-U 1 1 61077668
-P 2000 1500
-F 0 "R12" H 2070 1546 50  0000 L CNN
-F 1 "100R" H 2070 1455 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1930 1500 50  0001 C CNN
-F 3 "~" H 2000 1500 50  0001 C CNN
-	1    2000 1500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R7
-U 1 1 6107793F
-P 1500 1500
-F 0 "R7" H 1570 1546 50  0000 L CNN
-F 1 "100R" H 1570 1455 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1430 1500 50  0001 C CNN
-F 3 "~" H 1500 1500 50  0001 C CNN
-	1    1500 1500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R2
-U 1 1 61077C82
-P 1000 1500
-F 0 "R2" H 1070 1546 50  0000 L CNN
-F 1 "100R" H 1070 1455 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 930 1500 50  0001 C CNN
-F 3 "~" H 1000 1500 50  0001 C CNN
-	1    1000 1500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R1
-U 1 1 61077F19
-P 1000 1000
-F 0 "R1" H 1070 1046 50  0000 L CNN
-F 1 "100R" H 1070 955 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 930 1000 50  0001 C CNN
-F 3 "~" H 1000 1000 50  0001 C CNN
-	1    1000 1000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R6
-U 1 1 610782F2
-P 1500 1000
-F 0 "R6" H 1570 1046 50  0000 L CNN
-F 1 "100R" H 1570 955 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1430 1000 50  0001 C CNN
-F 3 "~" H 1500 1000 50  0001 C CNN
-	1    1500 1000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R11
-U 1 1 61078617
-P 2000 1000
-F 0 "R11" H 2070 1046 50  0000 L CNN
-F 1 "100R" H 2070 955 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1930 1000 50  0001 C CNN
-F 3 "~" H 2000 1000 50  0001 C CNN
-	1    2000 1000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R16
-U 1 1 61078939
-P 2500 1000
-F 0 "R16" H 2570 1046 50  0000 L CNN
-F 1 "100R" H 2570 955 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2430 1000 50  0001 C CNN
-F 3 "~" H 2500 1000 50  0001 C CNN
-	1    2500 1000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R21
-U 1 1 61078CA0
-P 3000 1000
-F 0 "R21" H 3070 1046 50  0000 L CNN
-F 1 "100R" H 3070 955 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2930 1000 50  0001 C CNN
-F 3 "~" H 3000 1000 50  0001 C CNN
-	1    3000 1000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED D1
-U 1 1 6107954B
-P 1250 1250
-F 0 "D1" H 1243 1466 50  0000 C CNN
-F 1 "LED" H 1243 1375 50  0000 C CNN
-F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 1250 1250 50  0001 C CNN
-F 3 "~" H 1250 1250 50  0001 C CNN
-	1    1250 1250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED D6
-U 1 1 6107F1D0
-P 1750 1250
-F 0 "D6" H 1743 1466 50  0000 C CNN
-F 1 "LED" H 1743 1375 50  0000 C CNN
-F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 1750 1250 50  0001 C CNN
-F 3 "~" H 1750 1250 50  0001 C CNN
-	1    1750 1250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED D11
-U 1 1 6107F60F
-P 2250 1250
-F 0 "D11" H 2243 1466 50  0000 C CNN
-F 1 "LED" H 2243 1375 50  0000 C CNN
-F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 2250 1250 50  0001 C CNN
-F 3 "~" H 2250 1250 50  0001 C CNN
-	1    2250 1250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED D16
-U 1 1 6107FAE6
-P 2750 1250
-F 0 "D16" H 2743 1466 50  0000 C CNN
-F 1 "LED" H 2743 1375 50  0000 C CNN
-F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 2750 1250 50  0001 C CNN
-F 3 "~" H 2750 1250 50  0001 C CNN
-	1    2750 1250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED D21
-U 1 1 61080442
-P 3250 1250
-F 0 "D21" H 3243 1466 50  0000 C CNN
-F 1 "LED" H 3243 1375 50  0000 C CNN
-F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 3250 1250 50  0001 C CNN
-F 3 "~" H 3250 1250 50  0001 C CNN
-	1    3250 1250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED D2
-U 1 1 6108073F
-P 1250 1750
-F 0 "D2" H 1243 1966 50  0000 C CNN
-F 1 "LED" H 1243 1875 50  0000 C CNN
-F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 1250 1750 50  0001 C CNN
-F 3 "~" H 1250 1750 50  0001 C CNN
-	1    1250 1750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED D7
-U 1 1 6108104E
-P 1750 1750
-F 0 "D7" H 1743 1966 50  0000 C CNN
-F 1 "LED" H 1743 1875 50  0000 C CNN
-F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 1750 1750 50  0001 C CNN
-F 3 "~" H 1750 1750 50  0001 C CNN
-	1    1750 1750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED D12
-U 1 1 6108157B
-P 2250 1750
-F 0 "D12" H 2243 1966 50  0000 C CNN
-F 1 "LED" H 2243 1875 50  0000 C CNN
-F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 2250 1750 50  0001 C CNN
-F 3 "~" H 2250 1750 50  0001 C CNN
-	1    2250 1750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED D17
-U 1 1 610819C4
-P 2750 1750
-F 0 "D17" H 2743 1966 50  0000 C CNN
-F 1 "LED" H 2743 1875 50  0000 C CNN
-F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 2750 1750 50  0001 C CNN
-F 3 "~" H 2750 1750 50  0001 C CNN
-	1    2750 1750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED D22
-U 1 1 61081F31
-P 3250 1750
-F 0 "D22" H 3243 1966 50  0000 C CNN
-F 1 "LED" H 3243 1875 50  0000 C CNN
-F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 3250 1750 50  0001 C CNN
-F 3 "~" H 3250 1750 50  0001 C CNN
-	1    3250 1750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED D18
-U 1 1 610824CF
-P 2750 2250
-F 0 "D18" H 2743 2466 50  0000 C CNN
-F 1 "LED" H 2743 2375 50  0000 C CNN
-F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 2750 2250 50  0001 C CNN
-F 3 "~" H 2750 2250 50  0001 C CNN
-	1    2750 2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED D23
-U 1 1 61083395
-P 3250 2250
-F 0 "D23" H 3243 2466 50  0000 C CNN
-F 1 "LED" H 3243 2375 50  0000 C CNN
-F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 3250 2250 50  0001 C CNN
-F 3 "~" H 3250 2250 50  0001 C CNN
-	1    3250 2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED D13
-U 1 1 61083942
-P 2250 2250
-F 0 "D13" H 2243 2466 50  0000 C CNN
-F 1 "LED" H 2243 2375 50  0000 C CNN
-F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 2250 2250 50  0001 C CNN
-F 3 "~" H 2250 2250 50  0001 C CNN
-	1    2250 2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED D8
-U 1 1 61084450
-P 1750 2250
-F 0 "D8" H 1743 2466 50  0000 C CNN
-F 1 "LED" H 1743 2375 50  0000 C CNN
-F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 1750 2250 50  0001 C CNN
-F 3 "~" H 1750 2250 50  0001 C CNN
-	1    1750 2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED D3
-U 1 1 61084836
-P 1250 2250
-F 0 "D3" H 1243 2466 50  0000 C CNN
-F 1 "LED" H 1243 2375 50  0000 C CNN
-F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 1250 2250 50  0001 C CNN
-F 3 "~" H 1250 2250 50  0001 C CNN
-	1    1250 2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED D4
-U 1 1 610852D1
-P 1250 2750
-F 0 "D4" H 1243 2966 50  0000 C CNN
-F 1 "LED" H 1243 2875 50  0000 C CNN
-F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 1250 2750 50  0001 C CNN
-F 3 "~" H 1250 2750 50  0001 C CNN
-	1    1250 2750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED D9
-U 1 1 61085926
-P 1750 2750
-F 0 "D9" H 1743 2966 50  0000 C CNN
-F 1 "LED" H 1743 2875 50  0000 C CNN
-F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 1750 2750 50  0001 C CNN
-F 3 "~" H 1750 2750 50  0001 C CNN
-	1    1750 2750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED D14
-U 1 1 61085FB6
-P 2250 2750
-F 0 "D14" H 2243 2966 50  0000 C CNN
-F 1 "LED" H 2243 2875 50  0000 C CNN
-F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 2250 2750 50  0001 C CNN
-F 3 "~" H 2250 2750 50  0001 C CNN
-	1    2250 2750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED D19
-U 1 1 6108662F
-P 2750 2750
-F 0 "D19" H 2743 2966 50  0000 C CNN
-F 1 "LED" H 2743 2875 50  0000 C CNN
-F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 2750 2750 50  0001 C CNN
-F 3 "~" H 2750 2750 50  0001 C CNN
-	1    2750 2750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED D24
-U 1 1 61086DD8
-P 3250 2750
-F 0 "D24" H 3243 2966 50  0000 C CNN
-F 1 "LED" H 3243 2875 50  0000 C CNN
-F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 3250 2750 50  0001 C CNN
-F 3 "~" H 3250 2750 50  0001 C CNN
-	1    3250 2750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED D5
-U 1 1 61087364
-P 1250 3250
-F 0 "D5" H 1243 3466 50  0000 C CNN
-F 1 "LED" H 1243 3375 50  0000 C CNN
-F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 1250 3250 50  0001 C CNN
-F 3 "~" H 1250 3250 50  0001 C CNN
-	1    1250 3250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED D10
-U 1 1 61087E70
-P 1750 3250
-F 0 "D10" H 1743 3466 50  0000 C CNN
-F 1 "LED" H 1743 3375 50  0000 C CNN
-F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 1750 3250 50  0001 C CNN
-F 3 "~" H 1750 3250 50  0001 C CNN
-	1    1750 3250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED D15
-U 1 1 610883D9
-P 2250 3250
-F 0 "D15" H 2243 3466 50  0000 C CNN
-F 1 "LED" H 2243 3375 50  0000 C CNN
-F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 2250 3250 50  0001 C CNN
-F 3 "~" H 2250 3250 50  0001 C CNN
-	1    2250 3250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED D20
-U 1 1 61088B00
-P 2750 3250
-F 0 "D20" H 2743 3466 50  0000 C CNN
-F 1 "LED" H 2743 3375 50  0000 C CNN
-F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 2750 3250 50  0001 C CNN
-F 3 "~" H 2750 3250 50  0001 C CNN
-	1    2750 3250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED D25
-U 1 1 6108923A
-P 3250 3250
-F 0 "D25" H 3243 3466 50  0000 C CNN
-F 1 "LED" H 3243 3375 50  0000 C CNN
-F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 3250 3250 50  0001 C CNN
-F 3 "~" H 3250 3250 50  0001 C CNN
-	1    3250 3250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1000 1150 1000 1250
-Wire Wire Line
-	1000 1250 1100 1250
-Wire Wire Line
-	1500 1150 1500 1250
-Wire Wire Line
-	1500 1250 1600 1250
-Wire Wire Line
-	2000 1150 2000 1250
-Wire Wire Line
-	2000 1250 2100 1250
-Wire Wire Line
-	2500 1150 2500 1250
-Wire Wire Line
-	2500 1250 2600 1250
-Wire Wire Line
-	3000 1150 3000 1250
-Wire Wire Line
-	3000 1250 3100 1250
-Wire Wire Line
-	1000 1650 1000 1750
-Wire Wire Line
-	1000 1750 1100 1750
-Wire Wire Line
-	1500 1650 1500 1750
-Wire Wire Line
-	1500 1750 1600 1750
-Wire Wire Line
-	2000 1650 2000 1750
-Wire Wire Line
-	2000 1750 2100 1750
-Wire Wire Line
-	2500 1650 2500 1750
-Wire Wire Line
-	2500 1750 2600 1750
-Wire Wire Line
-	3000 1650 3000 1750
-Wire Wire Line
-	3000 1750 3100 1750
-Wire Wire Line
-	1000 2150 1000 2250
-Wire Wire Line
-	1000 2250 1100 2250
-Wire Wire Line
-	1500 2150 1500 2250
-Wire Wire Line
-	1500 2250 1600 2250
-Wire Wire Line
-	2000 2150 2000 2250
-Wire Wire Line
-	2000 2250 2100 2250
-Wire Wire Line
-	2500 2150 2500 2250
-Wire Wire Line
-	2500 2250 2600 2250
-Wire Wire Line
-	3000 2150 3000 2250
-Wire Wire Line
-	3000 2250 3100 2250
-Wire Wire Line
-	1000 2650 1000 2750
-Wire Wire Line
-	1000 2750 1100 2750
-Wire Wire Line
-	1500 2650 1500 2750
-Wire Wire Line
-	1500 2750 1600 2750
-Wire Wire Line
-	2000 2650 2000 2750
-Wire Wire Line
-	2000 2750 2100 2750
-Wire Wire Line
-	2500 2650 2500 2750
-Wire Wire Line
-	2500 2750 2600 2750
-Wire Wire Line
-	3000 2650 3000 2750
-Wire Wire Line
-	3000 2750 3100 2750
-Wire Wire Line
-	1000 3150 1000 3250
-Wire Wire Line
-	1000 3250 1100 3250
-Wire Wire Line
-	1500 3150 1500 3250
-Wire Wire Line
-	1500 3250 1600 3250
-Wire Wire Line
-	2000 3150 2000 3250
-Wire Wire Line
-	2000 3250 2100 3250
-Wire Wire Line
-	2500 3150 2500 3250
-Wire Wire Line
-	2500 3250 2600 3250
-Wire Wire Line
-	3000 3150 3000 3250
-Wire Wire Line
-	3000 3250 3100 3250
-Wire Wire Line
-	1400 1250 1400 1750
-Wire Wire Line
-	1400 1750 1400 2250
-Wire Wire Line
-	1400 2250 1400 2750
-Connection ~ 1400 1750
-Connection ~ 1400 2250
-Wire Wire Line
-	1400 2750 1400 3250
-Connection ~ 1400 2750
-Wire Wire Line
-	1900 1250 1900 1750
-Wire Wire Line
-	1900 1750 1900 2250
-Connection ~ 1900 1750
-Wire Wire Line
-	1900 2250 1900 2750
-Connection ~ 1900 2250
-Wire Wire Line
-	1900 2750 1900 3250
-Connection ~ 1900 2750
-Wire Wire Line
-	2400 1250 2400 1750
-Wire Wire Line
-	2400 1750 2400 2250
-Connection ~ 2400 1750
-Wire Wire Line
-	2400 2250 2400 2750
-Connection ~ 2400 2250
-Wire Wire Line
-	2400 2750 2400 3250
-Connection ~ 2400 2750
-Wire Wire Line
-	2900 1250 2900 1750
-Wire Wire Line
-	2900 1750 2900 2250
-Connection ~ 2900 1750
-Wire Wire Line
-	2900 2250 2900 2750
-Connection ~ 2900 2250
-Wire Wire Line
-	2900 2750 2900 3250
-Connection ~ 2900 2750
-Wire Wire Line
-	3400 1250 3400 1750
-Wire Wire Line
-	3400 1750 3400 2250
-Connection ~ 3400 1750
-Wire Wire Line
-	3400 2250 3400 2750
-Connection ~ 3400 2250
-Wire Wire Line
-	3400 2750 3400 3250
-Connection ~ 3400 2750
-$Comp
 L Transistor_BJT:PN2222A Q3
 U 1 1 610B975C
-P 2650 3800
-F 0 "Q3" H 2840 3846 50  0000 L CNN
-F 1 "PN2222A" H 2840 3755 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 2850 3725 50  0001 L CIN
-F 3 "https://www.onsemi.com/pub/Collateral/PN2222-D.PDF" H 2650 3800 50  0001 L CNN
-	1    2650 3800
+P 2450 4400
+F 0 "Q3" H 2640 4446 50  0000 L CNN
+F 1 "PN2222A" H 2640 4355 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 2650 4325 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/PN2222-D.PDF" H 2450 4400 50  0001 L CNN
+	1    2450 4400
 	1    0    0    -1  
 $EndComp
 $Comp
 L Transistor_BJT:PN2222A Q2
 U 1 1 610BA815
-P 1300 4700
-F 0 "Q2" H 1490 4746 50  0000 L CNN
-F 1 "PN2222A" H 1490 4655 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 1500 4625 50  0001 L CIN
-F 3 "https://www.onsemi.com/pub/Collateral/PN2222-D.PDF" H 1300 4700 50  0001 L CNN
-	1    1300 4700
+P 1050 5300
+F 0 "Q2" H 1240 5346 50  0000 L CNN
+F 1 "PN2222A" H 1240 5255 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 1250 5225 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/PN2222-D.PDF" H 1050 5300 50  0001 L CNN
+	1    1050 5300
 	1    0    0    -1  
 $EndComp
 $Comp
 L Transistor_BJT:PN2222A Q4
 U 1 1 610E6DE4
-P 2650 4700
-F 0 "Q4" H 2840 4746 50  0000 L CNN
-F 1 "PN2222A" H 2840 4655 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 2850 4625 50  0001 L CIN
-F 3 "https://www.onsemi.com/pub/Collateral/PN2222-D.PDF" H 2650 4700 50  0001 L CNN
-	1    2650 4700
+P 2400 5300
+F 0 "Q4" H 2590 5346 50  0000 L CNN
+F 1 "PN2222A" H 2590 5255 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 2600 5225 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/PN2222-D.PDF" H 2400 5300 50  0001 L CNN
+	1    2400 5300
 	1    0    0    -1  
 $EndComp
 $Comp
 L Transistor_BJT:PN2222A Q5
 U 1 1 610E745F
-P 3950 4750
-F 0 "Q5" H 4140 4796 50  0000 L CNN
-F 1 "PN2222A" H 4140 4705 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 4150 4675 50  0001 L CIN
-F 3 "https://www.onsemi.com/pub/Collateral/PN2222-D.PDF" H 3950 4750 50  0001 L CNN
-	1    3950 4750
+P 2400 6200
+F 0 "Q5" H 2590 6246 50  0000 L CNN
+F 1 "PN2222A" H 2590 6155 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 2600 6125 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/PN2222-D.PDF" H 2400 6200 50  0001 L CNN
+	1    2400 6200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -809,12 +104,12 @@ $EndComp
 $Comp
 L Transistor_BJT:PN2222A Q1
 U 1 1 610BB332
-P 1300 3800
-F 0 "Q1" H 1490 3846 50  0000 L CNN
-F 1 "PN2222A" H 1490 3755 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 1500 3725 50  0001 L CIN
-F 3 "https://www.onsemi.com/pub/Collateral/PN2222-D.PDF" H 1300 3800 50  0001 L CNN
-	1    1300 3800
+P 1100 4400
+F 0 "Q1" H 1290 4446 50  0000 L CNN
+F 1 "PN2222A" H 1290 4355 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 1300 4325 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/PN2222-D.PDF" H 1100 4400 50  0001 L CNN
+	1    1100 4400
 	1    0    0    -1  
 $EndComp
 Text Label 7250 2100 0    50   ~ 0
@@ -895,35 +190,29 @@ Wire Wire Line
 	5200 1400 5350 1400
 Text Label 6200 2800 0    50   ~ 0
 U4_B
-Text Label 1100 4400 0    50   ~ 0
+Text Label 850  5000 0    50   ~ 0
 U4_B
 Text Label 6200 2700 0    50   ~ 0
 U4_A
-Text Label 1100 3500 0    50   ~ 0
+Text Label 900  4100 0    50   ~ 0
 U4_A
 Text Label 6200 2900 0    50   ~ 0
 U4_C
-Text Label 2450 3500 0    50   ~ 0
+Text Label 2250 4100 0    50   ~ 0
 U4_C
 Text Label 6200 3000 0    50   ~ 0
 U4_D
-Text Label 2450 4400 0    50   ~ 0
+Text Label 2200 5000 0    50   ~ 0
 U4_D
 Text Label 6200 3100 0    50   ~ 0
 U4_E
-Text Label 3750 4450 0    50   ~ 0
+Text Label 2200 5900 0    50   ~ 0
 U4_E
 Text Label 6200 3200 0    50   ~ 0
 U4_F
-Text Label 3000 2800 0    50   ~ 0
-U4_F
 Text Label 6200 3300 0    50   ~ 0
 U4_G
-Text Label 3000 2300 0    50   ~ 0
-U4_G
 Text Label 6200 3400 0    50   ~ 0
-U4_H
-Text Label 3000 1800 0    50   ~ 0
 U4_H
 Text Label 6200 3600 0    50   ~ 0
 U4_HH
@@ -953,22 +242,6 @@ Text Label 6200 1700 0    50   ~ 0
 U3_G
 Text Label 6200 1800 0    50   ~ 0
 U3_H
-Text Label 3000 1300 0    50   ~ 0
-U3_A
-Text Label 3000 800  0    50   ~ 0
-U3_B
-Text Label 2500 800  0    50   ~ 0
-U3_C
-Text Label 2500 1300 0    50   ~ 0
-U3_D
-Text Label 2500 1800 0    50   ~ 0
-U3_E
-Text Label 2500 2300 0    50   ~ 0
-U3_F
-Text Label 2500 2800 0    50   ~ 0
-U3_G
-Text Label 2000 2800 0    50   ~ 0
-U3_H
 Text Label 4850 1050 0    50   ~ 0
 U1_A
 Text Label 4850 1150 0    50   ~ 0
@@ -985,38 +258,10 @@ Text Label 4850 1650 0    50   ~ 0
 U1_G
 Text Label 4850 1750 0    50   ~ 0
 U1_H
-Text Label 2000 2300 0    50   ~ 0
-U1_A
-Text Label 2000 1800 0    50   ~ 0
-U1_B
-Text Label 2000 1300 0    50   ~ 0
-U1_C
-Text Label 2000 800  0    50   ~ 0
-U1_D
-Text Label 1500 800  0    50   ~ 0
-U1_E
-Text Label 1500 1300 0    50   ~ 0
-U1_F
-Text Label 1500 1800 0    50   ~ 0
-U1_G
-Text Label 1500 2300 0    50   ~ 0
-U1_H
 Text Label 4900 2700 0    50   ~ 0
 U2_A
 Text Label 4900 2800 0    50   ~ 0
 U2_B
-Text Label 1500 2800 0    50   ~ 0
-U2_A
-Text Label 1000 2800 0    50   ~ 0
-U2_B
-Text Label 1000 2300 0    50   ~ 0
-U2_C
-Text Label 1000 1800 0    50   ~ 0
-U2_D
-Text Label 1000 1300 0    50   ~ 0
-U2_E
-Text Label 1000 800  0    50   ~ 0
-U2_F
 Text Label 4900 3100 0    50   ~ 0
 U2_E
 Text Label 4900 3200 0    50   ~ 0
@@ -1027,15 +272,15 @@ Text Label 4900 3000 0    50   ~ 0
 U2_D
 Text Label 7250 2200 0    50   ~ 0
 GND
-Text Label 1400 4200 0    50   ~ 0
+Text Label 1200 4800 0    50   ~ 0
 GND
-Text Label 1400 5100 0    50   ~ 0
+Text Label 1150 5700 0    50   ~ 0
 GND
-Text Label 2750 4200 0    50   ~ 0
+Text Label 2550 4800 0    50   ~ 0
 GND
-Text Label 2750 5100 0    50   ~ 0
+Text Label 2500 5700 0    50   ~ 0
 GND
-Text Label 4050 5100 0    50   ~ 0
+Text Label 2500 6550 0    50   ~ 0
 GND
 $Comp
 L Connector_Generic_MountingPin:Conn_01x05_MountingPin J1
@@ -1069,67 +314,17 @@ Wire Wire Line
 Wire Wire Line
 	6200 2200 5750 2200
 Wire Wire Line
-	4050 4950 4050 5100
+	2500 6400 2500 6550
 Wire Wire Line
-	2750 5100 2750 4900
+	2500 5700 2500 5500
 Wire Wire Line
-	1400 5100 1400 4900
+	1150 5700 1150 5500
 Wire Wire Line
-	1400 4000 1400 4200
+	1200 4600 1200 4800
 Wire Wire Line
-	2750 4200 2750 4000
+	2550 4800 2550 4600
 Wire Wire Line
 	4450 2200 3900 2200
-Wire Wire Line
-	1000 800  1000 850 
-Wire Wire Line
-	1500 800  1500 850 
-Wire Wire Line
-	2000 800  2000 850 
-Wire Wire Line
-	2500 800  2500 850 
-Wire Wire Line
-	3000 800  3000 850 
-Wire Wire Line
-	3000 1300 3000 1350
-Wire Wire Line
-	2500 1300 2500 1350
-Wire Wire Line
-	2000 1300 2000 1350
-Wire Wire Line
-	1500 1300 1500 1350
-Wire Wire Line
-	1000 1300 1000 1350
-Wire Wire Line
-	3000 1800 3000 1850
-Wire Wire Line
-	2500 1800 2500 1850
-Wire Wire Line
-	2000 1800 2000 1850
-Wire Wire Line
-	1500 1800 1500 1850
-Wire Wire Line
-	1000 1800 1000 1850
-Wire Wire Line
-	1000 2300 1000 2350
-Wire Wire Line
-	1500 2300 1500 2350
-Wire Wire Line
-	2000 2300 2000 2350
-Wire Wire Line
-	2500 2300 2500 2350
-Wire Wire Line
-	3000 2300 3000 2350
-Wire Wire Line
-	3000 2800 3000 2850
-Wire Wire Line
-	2500 2800 2500 2850
-Wire Wire Line
-	2000 2800 2000 2850
-Wire Wire Line
-	1500 2800 1500 2850
-Wire Wire Line
-	1000 2800 1000 2850
 Wire Wire Line
 	4450 850  4450 900 
 Wire Wire Line
@@ -1281,111 +476,950 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_01x01 J2
 U 1 1 611412CA
-P 1600 3600
-F 0 "J2" H 1680 3642 50  0000 L CNN
-F 1 "Conn_01x01" H 1680 3551 50  0000 L CNN
-F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 1600 3600 50  0001 C CNN
-F 3 "~" H 1600 3600 50  0001 C CNN
-	1    1600 3600
+P 1400 4200
+F 0 "J2" H 1480 4242 50  0000 L CNN
+F 1 "Conn_01x01" H 1480 4151 50  0000 L CNN
+F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 1400 4200 50  0001 C CNN
+F 3 "~" H 1400 4200 50  0001 C CNN
+	1    1400 4200
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x01 J6
 U 1 1 611441A3
-P 4250 4550
-F 0 "J6" H 4330 4592 50  0000 L CNN
-F 1 "Conn_01x01" H 4330 4501 50  0000 L CNN
-F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 4250 4550 50  0001 C CNN
-F 3 "~" H 4250 4550 50  0001 C CNN
-	1    4250 4550
+P 2700 6000
+F 0 "J6" H 2780 6042 50  0000 L CNN
+F 1 "Conn_01x01" H 2780 5951 50  0000 L CNN
+F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 2700 6000 50  0001 C CNN
+F 3 "~" H 2700 6000 50  0001 C CNN
+	1    2700 6000
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x01 J5
 U 1 1 61143AA4
-P 2950 4500
-F 0 "J5" H 3030 4542 50  0000 L CNN
-F 1 "Conn_01x01" H 3030 4451 50  0000 L CNN
-F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 2950 4500 50  0001 C CNN
-F 3 "~" H 2950 4500 50  0001 C CNN
-	1    2950 4500
+P 2700 5100
+F 0 "J5" H 2780 5142 50  0000 L CNN
+F 1 "Conn_01x01" H 2780 5051 50  0000 L CNN
+F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 2700 5100 50  0001 C CNN
+F 3 "~" H 2700 5100 50  0001 C CNN
+	1    2700 5100
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x01 J3
 U 1 1 61142E71
-P 1600 4500
-F 0 "J3" H 1680 4542 50  0000 L CNN
-F 1 "Conn_01x01" H 1680 4451 50  0000 L CNN
-F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 1600 4500 50  0001 C CNN
-F 3 "~" H 1600 4500 50  0001 C CNN
-	1    1600 4500
+P 1350 5100
+F 0 "J3" H 1430 5142 50  0000 L CNN
+F 1 "Conn_01x01" H 1430 5051 50  0000 L CNN
+F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 1350 5100 50  0001 C CNN
+F 3 "~" H 1350 5100 50  0001 C CNN
+	1    1350 5100
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x01 J4
 U 1 1 61143492
-P 2950 3600
-F 0 "J4" H 3030 3642 50  0000 L CNN
-F 1 "Conn_01x01" H 3030 3551 50  0000 L CNN
-F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 2950 3600 50  0001 C CNN
-F 3 "~" H 2950 3600 50  0001 C CNN
-	1    2950 3600
+P 2750 4200
+F 0 "J4" H 2830 4242 50  0000 L CNN
+F 1 "Conn_01x01" H 2830 4151 50  0000 L CNN
+F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 2750 4200 50  0001 C CNN
+F 3 "~" H 2750 4200 50  0001 C CNN
+	1    2750 4200
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R26
 U 1 1 6115B9FB
-P 1100 3650
-F 0 "R26" H 1170 3696 50  0000 L CNN
-F 1 "510" H 1170 3605 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1030 3650 50  0001 C CNN
-F 3 "~" H 1100 3650 50  0001 C CNN
-	1    1100 3650
+P 900 4250
+F 0 "R26" H 970 4296 50  0000 L CNN
+F 1 "510" H 970 4205 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 830 4250 50  0001 C CNN
+F 3 "~" H 900 4250 50  0001 C CNN
+	1    900  4250
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R28
 U 1 1 6117195B
-P 2450 3650
-F 0 "R28" H 2520 3696 50  0000 L CNN
-F 1 "510" H 2520 3605 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2380 3650 50  0001 C CNN
-F 3 "~" H 2450 3650 50  0001 C CNN
-	1    2450 3650
+P 2250 4250
+F 0 "R28" H 2320 4296 50  0000 L CNN
+F 1 "510" H 2320 4205 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2180 4250 50  0001 C CNN
+F 3 "~" H 2250 4250 50  0001 C CNN
+	1    2250 4250
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R27
 U 1 1 61171FE9
-P 1100 4550
-F 0 "R27" H 1170 4596 50  0000 L CNN
-F 1 "510" H 1170 4505 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1030 4550 50  0001 C CNN
-F 3 "~" H 1100 4550 50  0001 C CNN
-	1    1100 4550
+P 850 5150
+F 0 "R27" H 920 5196 50  0000 L CNN
+F 1 "510" H 920 5105 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 780 5150 50  0001 C CNN
+F 3 "~" H 850 5150 50  0001 C CNN
+	1    850  5150
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R29
 U 1 1 611727CC
-P 2450 4550
-F 0 "R29" H 2520 4596 50  0000 L CNN
-F 1 "510" H 2520 4505 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2380 4550 50  0001 C CNN
-F 3 "~" H 2450 4550 50  0001 C CNN
-	1    2450 4550
+P 2200 5150
+F 0 "R29" H 2270 5196 50  0000 L CNN
+F 1 "510" H 2270 5105 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2130 5150 50  0001 C CNN
+F 3 "~" H 2200 5150 50  0001 C CNN
+	1    2200 5150
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R30
 U 1 1 61172EF5
-P 3750 4600
-F 0 "R30" H 3820 4646 50  0000 L CNN
-F 1 "510" H 3820 4555 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3680 4600 50  0001 C CNN
-F 3 "~" H 3750 4600 50  0001 C CNN
-	1    3750 4600
+P 2200 6050
+F 0 "R30" H 2270 6096 50  0000 L CNN
+F 1 "510" H 2270 6005 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2130 6050 50  0001 C CNN
+F 3 "~" H 2200 6050 50  0001 C CNN
+	1    2200 6050
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:R R10
+U 1 1 6106D4D6
+P 1500 3150
+F 0 "R10" H 1570 3196 50  0000 L CNN
+F 1 "100R" H 1570 3105 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1430 3150 50  0001 C CNN
+F 3 "~" H 1500 3150 50  0001 C CNN
+	1    1500 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 6106D962
+P 1000 3150
+F 0 "R5" H 1070 3196 50  0000 L CNN
+F 1 "100R" H 1070 3105 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 930 3150 50  0001 C CNN
+F 3 "~" H 1000 3150 50  0001 C CNN
+	1    1000 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R15
+U 1 1 6106E57C
+P 2000 3150
+F 0 "R15" H 2070 3196 50  0000 L CNN
+F 1 "100R" H 2070 3105 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1930 3150 50  0001 C CNN
+F 3 "~" H 2000 3150 50  0001 C CNN
+	1    2000 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R20
+U 1 1 6106E6AA
+P 2500 3150
+F 0 "R20" H 2570 3196 50  0000 L CNN
+F 1 "100R" H 2570 3105 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2430 3150 50  0001 C CNN
+F 3 "~" H 2500 3150 50  0001 C CNN
+	1    2500 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R14
+U 1 1 6106E7F3
+P 2000 2650
+F 0 "R14" H 2070 2696 50  0000 L CNN
+F 1 "100R" H 2070 2605 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1930 2650 50  0001 C CNN
+F 3 "~" H 2000 2650 50  0001 C CNN
+	1    2000 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 6106E9F4
+P 1000 2650
+F 0 "R4" H 1070 2696 50  0000 L CNN
+F 1 "100R" H 1070 2605 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 930 2650 50  0001 C CNN
+F 3 "~" H 1000 2650 50  0001 C CNN
+	1    1000 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R9
+U 1 1 6106EC11
+P 1500 2650
+F 0 "R9" H 1570 2696 50  0000 L CNN
+F 1 "100R" H 1570 2605 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1430 2650 50  0001 C CNN
+F 3 "~" H 1500 2650 50  0001 C CNN
+	1    1500 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R19
+U 1 1 61074344
+P 2500 2650
+F 0 "R19" H 2570 2696 50  0000 L CNN
+F 1 "100R" H 2570 2605 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2430 2650 50  0001 C CNN
+F 3 "~" H 2500 2650 50  0001 C CNN
+	1    2500 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R24
+U 1 1 61074657
+P 3000 2650
+F 0 "R24" H 3070 2696 50  0000 L CNN
+F 1 "100R" H 3070 2605 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2930 2650 50  0001 C CNN
+F 3 "~" H 3000 2650 50  0001 C CNN
+	1    3000 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R25
+U 1 1 61074973
+P 3000 3150
+F 0 "R25" H 3070 3196 50  0000 L CNN
+F 1 "100R" H 3070 3105 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2930 3150 50  0001 C CNN
+F 3 "~" H 3000 3150 50  0001 C CNN
+	1    3000 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 61075A1A
+P 1000 2150
+F 0 "R3" H 1070 2196 50  0000 L CNN
+F 1 "100R" H 1070 2105 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 930 2150 50  0001 C CNN
+F 3 "~" H 1000 2150 50  0001 C CNN
+	1    1000 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R8
+U 1 1 61075F20
+P 1500 2150
+F 0 "R8" H 1570 2196 50  0000 L CNN
+F 1 "100R" H 1570 2105 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1430 2150 50  0001 C CNN
+F 3 "~" H 1500 2150 50  0001 C CNN
+	1    1500 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R13
+U 1 1 61076292
+P 2000 2150
+F 0 "R13" H 2070 2196 50  0000 L CNN
+F 1 "100R" H 2070 2105 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1930 2150 50  0001 C CNN
+F 3 "~" H 2000 2150 50  0001 C CNN
+	1    2000 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R18
+U 1 1 6107660A
+P 2500 2150
+F 0 "R18" H 2570 2196 50  0000 L CNN
+F 1 "100R" H 2570 2105 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2430 2150 50  0001 C CNN
+F 3 "~" H 2500 2150 50  0001 C CNN
+	1    2500 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R23
+U 1 1 61076947
+P 3000 2150
+F 0 "R23" H 3070 2196 50  0000 L CNN
+F 1 "100R" H 3070 2105 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2930 2150 50  0001 C CNN
+F 3 "~" H 3000 2150 50  0001 C CNN
+	1    3000 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R22
+U 1 1 61076DA5
+P 3000 1650
+F 0 "R22" H 3070 1696 50  0000 L CNN
+F 1 "100R" H 3070 1605 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2930 1650 50  0001 C CNN
+F 3 "~" H 3000 1650 50  0001 C CNN
+	1    3000 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R17
+U 1 1 61077229
+P 2500 1650
+F 0 "R17" H 2570 1696 50  0000 L CNN
+F 1 "100R" H 2570 1605 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2430 1650 50  0001 C CNN
+F 3 "~" H 2500 1650 50  0001 C CNN
+	1    2500 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R12
+U 1 1 61077668
+P 2000 1650
+F 0 "R12" H 2070 1696 50  0000 L CNN
+F 1 "100R" H 2070 1605 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1930 1650 50  0001 C CNN
+F 3 "~" H 2000 1650 50  0001 C CNN
+	1    2000 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 6107793F
+P 1500 1650
+F 0 "R7" H 1570 1696 50  0000 L CNN
+F 1 "100R" H 1570 1605 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1430 1650 50  0001 C CNN
+F 3 "~" H 1500 1650 50  0001 C CNN
+	1    1500 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 61077C82
+P 1000 1650
+F 0 "R2" H 1070 1696 50  0000 L CNN
+F 1 "100R" H 1070 1605 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 930 1650 50  0001 C CNN
+F 3 "~" H 1000 1650 50  0001 C CNN
+	1    1000 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 61077F19
+P 1000 1150
+F 0 "R1" H 1070 1196 50  0000 L CNN
+F 1 "100R" H 1070 1105 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 930 1150 50  0001 C CNN
+F 3 "~" H 1000 1150 50  0001 C CNN
+	1    1000 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 610782F2
+P 1500 1150
+F 0 "R6" H 1570 1196 50  0000 L CNN
+F 1 "100R" H 1570 1105 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1430 1150 50  0001 C CNN
+F 3 "~" H 1500 1150 50  0001 C CNN
+	1    1500 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R11
+U 1 1 61078617
+P 2000 1150
+F 0 "R11" H 2070 1196 50  0000 L CNN
+F 1 "100R" H 2070 1105 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1930 1150 50  0001 C CNN
+F 3 "~" H 2000 1150 50  0001 C CNN
+	1    2000 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R16
+U 1 1 61078939
+P 2500 1150
+F 0 "R16" H 2570 1196 50  0000 L CNN
+F 1 "100R" H 2570 1105 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2430 1150 50  0001 C CNN
+F 3 "~" H 2500 1150 50  0001 C CNN
+	1    2500 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R21
+U 1 1 61078CA0
+P 3000 1150
+F 0 "R21" H 3070 1196 50  0000 L CNN
+F 1 "100R" H 3070 1105 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2930 1150 50  0001 C CNN
+F 3 "~" H 3000 1150 50  0001 C CNN
+	1    3000 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D1
+U 1 1 6107954B
+P 1250 1400
+F 0 "D1" H 1243 1616 50  0000 C CNN
+F 1 "LED" H 1243 1525 50  0000 C CNN
+F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 1250 1400 50  0001 C CNN
+F 3 "~" H 1250 1400 50  0001 C CNN
+	1    1250 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D6
+U 1 1 6107F1D0
+P 1750 1400
+F 0 "D6" H 1743 1616 50  0000 C CNN
+F 1 "LED" H 1743 1525 50  0000 C CNN
+F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 1750 1400 50  0001 C CNN
+F 3 "~" H 1750 1400 50  0001 C CNN
+	1    1750 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D11
+U 1 1 6107F60F
+P 2250 1400
+F 0 "D11" H 2243 1616 50  0000 C CNN
+F 1 "LED" H 2243 1525 50  0000 C CNN
+F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 2250 1400 50  0001 C CNN
+F 3 "~" H 2250 1400 50  0001 C CNN
+	1    2250 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D16
+U 1 1 6107FAE6
+P 2750 1400
+F 0 "D16" H 2743 1616 50  0000 C CNN
+F 1 "LED" H 2743 1525 50  0000 C CNN
+F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 2750 1400 50  0001 C CNN
+F 3 "~" H 2750 1400 50  0001 C CNN
+	1    2750 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D21
+U 1 1 61080442
+P 3250 1400
+F 0 "D21" H 3243 1616 50  0000 C CNN
+F 1 "LED" H 3243 1525 50  0000 C CNN
+F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 3250 1400 50  0001 C CNN
+F 3 "~" H 3250 1400 50  0001 C CNN
+	1    3250 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 6108073F
+P 1250 1900
+F 0 "D2" H 1243 2116 50  0000 C CNN
+F 1 "LED" H 1243 2025 50  0000 C CNN
+F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 1250 1900 50  0001 C CNN
+F 3 "~" H 1250 1900 50  0001 C CNN
+	1    1250 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D7
+U 1 1 6108104E
+P 1750 1900
+F 0 "D7" H 1743 2116 50  0000 C CNN
+F 1 "LED" H 1743 2025 50  0000 C CNN
+F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 1750 1900 50  0001 C CNN
+F 3 "~" H 1750 1900 50  0001 C CNN
+	1    1750 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D12
+U 1 1 6108157B
+P 2250 1900
+F 0 "D12" H 2243 2116 50  0000 C CNN
+F 1 "LED" H 2243 2025 50  0000 C CNN
+F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 2250 1900 50  0001 C CNN
+F 3 "~" H 2250 1900 50  0001 C CNN
+	1    2250 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D17
+U 1 1 610819C4
+P 2750 1900
+F 0 "D17" H 2743 2116 50  0000 C CNN
+F 1 "LED" H 2743 2025 50  0000 C CNN
+F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 2750 1900 50  0001 C CNN
+F 3 "~" H 2750 1900 50  0001 C CNN
+	1    2750 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D22
+U 1 1 61081F31
+P 3250 1900
+F 0 "D22" H 3243 2116 50  0000 C CNN
+F 1 "LED" H 3243 2025 50  0000 C CNN
+F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 3250 1900 50  0001 C CNN
+F 3 "~" H 3250 1900 50  0001 C CNN
+	1    3250 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D18
+U 1 1 610824CF
+P 2750 2400
+F 0 "D18" H 2743 2616 50  0000 C CNN
+F 1 "LED" H 2743 2525 50  0000 C CNN
+F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 2750 2400 50  0001 C CNN
+F 3 "~" H 2750 2400 50  0001 C CNN
+	1    2750 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D23
+U 1 1 61083395
+P 3250 2400
+F 0 "D23" H 3243 2616 50  0000 C CNN
+F 1 "LED" H 3243 2525 50  0000 C CNN
+F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 3250 2400 50  0001 C CNN
+F 3 "~" H 3250 2400 50  0001 C CNN
+	1    3250 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D13
+U 1 1 61083942
+P 2250 2400
+F 0 "D13" H 2243 2616 50  0000 C CNN
+F 1 "LED" H 2243 2525 50  0000 C CNN
+F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 2250 2400 50  0001 C CNN
+F 3 "~" H 2250 2400 50  0001 C CNN
+	1    2250 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D8
+U 1 1 61084450
+P 1750 2400
+F 0 "D8" H 1743 2616 50  0000 C CNN
+F 1 "LED" H 1743 2525 50  0000 C CNN
+F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 1750 2400 50  0001 C CNN
+F 3 "~" H 1750 2400 50  0001 C CNN
+	1    1750 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D3
+U 1 1 61084836
+P 1250 2400
+F 0 "D3" H 1243 2616 50  0000 C CNN
+F 1 "LED" H 1243 2525 50  0000 C CNN
+F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 1250 2400 50  0001 C CNN
+F 3 "~" H 1250 2400 50  0001 C CNN
+	1    1250 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D4
+U 1 1 610852D1
+P 1250 2900
+F 0 "D4" H 1243 3116 50  0000 C CNN
+F 1 "LED" H 1243 3025 50  0000 C CNN
+F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 1250 2900 50  0001 C CNN
+F 3 "~" H 1250 2900 50  0001 C CNN
+	1    1250 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D9
+U 1 1 61085926
+P 1750 2900
+F 0 "D9" H 1743 3116 50  0000 C CNN
+F 1 "LED" H 1743 3025 50  0000 C CNN
+F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 1750 2900 50  0001 C CNN
+F 3 "~" H 1750 2900 50  0001 C CNN
+	1    1750 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D14
+U 1 1 61085FB6
+P 2250 2900
+F 0 "D14" H 2243 3116 50  0000 C CNN
+F 1 "LED" H 2243 3025 50  0000 C CNN
+F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 2250 2900 50  0001 C CNN
+F 3 "~" H 2250 2900 50  0001 C CNN
+	1    2250 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D19
+U 1 1 6108662F
+P 2750 2900
+F 0 "D19" H 2743 3116 50  0000 C CNN
+F 1 "LED" H 2743 3025 50  0000 C CNN
+F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 2750 2900 50  0001 C CNN
+F 3 "~" H 2750 2900 50  0001 C CNN
+	1    2750 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D24
+U 1 1 61086DD8
+P 3250 2900
+F 0 "D24" H 3243 3116 50  0000 C CNN
+F 1 "LED" H 3243 3025 50  0000 C CNN
+F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 3250 2900 50  0001 C CNN
+F 3 "~" H 3250 2900 50  0001 C CNN
+	1    3250 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D5
+U 1 1 61087364
+P 1250 3400
+F 0 "D5" H 1243 3616 50  0000 C CNN
+F 1 "LED" H 1243 3525 50  0000 C CNN
+F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 1250 3400 50  0001 C CNN
+F 3 "~" H 1250 3400 50  0001 C CNN
+	1    1250 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D10
+U 1 1 61087E70
+P 1750 3400
+F 0 "D10" H 1743 3616 50  0000 C CNN
+F 1 "LED" H 1743 3525 50  0000 C CNN
+F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 1750 3400 50  0001 C CNN
+F 3 "~" H 1750 3400 50  0001 C CNN
+	1    1750 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D15
+U 1 1 610883D9
+P 2250 3400
+F 0 "D15" H 2243 3616 50  0000 C CNN
+F 1 "LED" H 2243 3525 50  0000 C CNN
+F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 2250 3400 50  0001 C CNN
+F 3 "~" H 2250 3400 50  0001 C CNN
+	1    2250 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D20
+U 1 1 61088B00
+P 2750 3400
+F 0 "D20" H 2743 3616 50  0000 C CNN
+F 1 "LED" H 2743 3525 50  0000 C CNN
+F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 2750 3400 50  0001 C CNN
+F 3 "~" H 2750 3400 50  0001 C CNN
+	1    2750 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D25
+U 1 1 6108923A
+P 3250 3400
+F 0 "D25" H 3243 3616 50  0000 C CNN
+F 1 "LED" H 3243 3525 50  0000 C CNN
+F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 3250 3400 50  0001 C CNN
+F 3 "~" H 3250 3400 50  0001 C CNN
+	1    3250 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1000 1300 1000 1400
+Wire Wire Line
+	1000 1400 1100 1400
+Wire Wire Line
+	1500 1300 1500 1400
+Wire Wire Line
+	1500 1400 1600 1400
+Wire Wire Line
+	2000 1300 2000 1400
+Wire Wire Line
+	2000 1400 2100 1400
+Wire Wire Line
+	2500 1300 2500 1400
+Wire Wire Line
+	2500 1400 2600 1400
+Wire Wire Line
+	3000 1300 3000 1400
+Wire Wire Line
+	3000 1400 3100 1400
+Wire Wire Line
+	1000 1800 1000 1900
+Wire Wire Line
+	1000 1900 1100 1900
+Wire Wire Line
+	1500 1800 1500 1900
+Wire Wire Line
+	1500 1900 1600 1900
+Wire Wire Line
+	2000 1800 2000 1900
+Wire Wire Line
+	2000 1900 2100 1900
+Wire Wire Line
+	2500 1800 2500 1900
+Wire Wire Line
+	2500 1900 2600 1900
+Wire Wire Line
+	3000 1800 3000 1900
+Wire Wire Line
+	3000 1900 3100 1900
+Wire Wire Line
+	1000 2300 1000 2400
+Wire Wire Line
+	1000 2400 1100 2400
+Wire Wire Line
+	1500 2300 1500 2400
+Wire Wire Line
+	1500 2400 1600 2400
+Wire Wire Line
+	2000 2300 2000 2400
+Wire Wire Line
+	2000 2400 2100 2400
+Wire Wire Line
+	2500 2300 2500 2400
+Wire Wire Line
+	2500 2400 2600 2400
+Wire Wire Line
+	3000 2300 3000 2400
+Wire Wire Line
+	3000 2400 3100 2400
+Wire Wire Line
+	1000 2800 1000 2900
+Wire Wire Line
+	1000 2900 1100 2900
+Wire Wire Line
+	1500 2800 1500 2900
+Wire Wire Line
+	1500 2900 1600 2900
+Wire Wire Line
+	2000 2800 2000 2900
+Wire Wire Line
+	2000 2900 2100 2900
+Wire Wire Line
+	2500 2800 2500 2900
+Wire Wire Line
+	2500 2900 2600 2900
+Wire Wire Line
+	3000 2800 3000 2900
+Wire Wire Line
+	3000 2900 3100 2900
+Wire Wire Line
+	1000 3300 1000 3400
+Wire Wire Line
+	1000 3400 1100 3400
+Wire Wire Line
+	1500 3300 1500 3400
+Wire Wire Line
+	1500 3400 1600 3400
+Wire Wire Line
+	2000 3300 2000 3400
+Wire Wire Line
+	2000 3400 2100 3400
+Wire Wire Line
+	2500 3300 2500 3400
+Wire Wire Line
+	2500 3400 2600 3400
+Wire Wire Line
+	3000 3300 3000 3400
+Wire Wire Line
+	3000 3400 3100 3400
+Wire Wire Line
+	1400 1400 1400 1900
+Wire Wire Line
+	1400 1900 1400 2400
+Wire Wire Line
+	1400 2400 1400 2900
+Connection ~ 1400 1900
+Connection ~ 1400 2400
+Wire Wire Line
+	1400 2900 1400 3400
+Connection ~ 1400 2900
+Wire Wire Line
+	1900 1400 1900 1900
+Wire Wire Line
+	1900 1900 1900 2400
+Connection ~ 1900 1900
+Wire Wire Line
+	1900 2400 1900 2900
+Connection ~ 1900 2400
+Wire Wire Line
+	1900 2900 1900 3400
+Connection ~ 1900 2900
+Wire Wire Line
+	2400 1400 2400 1900
+Wire Wire Line
+	2400 1900 2400 2400
+Connection ~ 2400 1900
+Wire Wire Line
+	2400 2400 2400 2900
+Connection ~ 2400 2400
+Wire Wire Line
+	2400 2900 2400 3400
+Connection ~ 2400 2900
+Wire Wire Line
+	2900 1400 2900 1900
+Wire Wire Line
+	2900 1900 2900 2400
+Connection ~ 2900 1900
+Wire Wire Line
+	2900 2400 2900 2900
+Connection ~ 2900 2400
+Wire Wire Line
+	2900 2900 2900 3400
+Connection ~ 2900 2900
+Wire Wire Line
+	3400 1400 3400 1900
+Wire Wire Line
+	3400 1900 3400 2400
+Connection ~ 3400 1900
+Wire Wire Line
+	3400 2400 3400 2900
+Connection ~ 3400 2400
+Wire Wire Line
+	3400 2900 3400 3400
+Connection ~ 3400 2900
+Text Label 3000 2950 0    50   ~ 0
+U4_F
+Text Label 3000 2450 0    50   ~ 0
+U4_G
+Text Label 3000 1950 0    50   ~ 0
+U4_H
+Text Label 3000 1450 0    50   ~ 0
+U3_A
+Text Label 3000 950  0    50   ~ 0
+U3_B
+Text Label 2500 950  0    50   ~ 0
+U3_C
+Text Label 2500 1450 0    50   ~ 0
+U3_D
+Text Label 2500 1950 0    50   ~ 0
+U3_E
+Text Label 2500 2450 0    50   ~ 0
+U3_F
+Text Label 2500 2950 0    50   ~ 0
+U3_G
+Text Label 2000 2950 0    50   ~ 0
+U3_H
+Text Label 2000 2450 0    50   ~ 0
+U1_A
+Text Label 2000 1950 0    50   ~ 0
+U1_B
+Text Label 2000 1450 0    50   ~ 0
+U1_C
+Text Label 2000 950  0    50   ~ 0
+U1_D
+Text Label 1500 950  0    50   ~ 0
+U1_E
+Text Label 1500 1450 0    50   ~ 0
+U1_F
+Text Label 1500 1950 0    50   ~ 0
+U1_G
+Text Label 1500 2450 0    50   ~ 0
+U1_H
+Text Label 1500 2950 0    50   ~ 0
+U2_A
+Text Label 1000 2950 0    50   ~ 0
+U2_B
+Text Label 1000 2450 0    50   ~ 0
+U2_C
+Text Label 1000 1950 0    50   ~ 0
+U2_D
+Text Label 1000 1450 0    50   ~ 0
+U2_E
+Text Label 1000 950  0    50   ~ 0
+U2_F
+Wire Wire Line
+	1000 950  1000 1000
+Wire Wire Line
+	1500 950  1500 1000
+Wire Wire Line
+	2000 950  2000 1000
+Wire Wire Line
+	2500 950  2500 1000
+Wire Wire Line
+	3000 950  3000 1000
+Wire Wire Line
+	3000 1450 3000 1500
+Wire Wire Line
+	2500 1450 2500 1500
+Wire Wire Line
+	2000 1450 2000 1500
+Wire Wire Line
+	1500 1450 1500 1500
+Wire Wire Line
+	1000 1450 1000 1500
+Wire Wire Line
+	3000 1950 3000 2000
+Wire Wire Line
+	2500 1950 2500 2000
+Wire Wire Line
+	2000 1950 2000 2000
+Wire Wire Line
+	1500 1950 1500 2000
+Wire Wire Line
+	1000 1950 1000 2000
+Wire Wire Line
+	1000 2450 1000 2500
+Wire Wire Line
+	1500 2450 1500 2500
+Wire Wire Line
+	2000 2450 2000 2500
+Wire Wire Line
+	2500 2450 2500 2500
+Wire Wire Line
+	3000 2450 3000 2500
+Wire Wire Line
+	3000 2950 3000 3000
+Wire Wire Line
+	2500 2950 2500 3000
+Wire Wire Line
+	2000 2950 2000 3000
+Wire Wire Line
+	1500 2950 1500 3000
+Wire Wire Line
+	1000 2950 1000 3000
+Text Notes 600  800  0    50   ~ 0
+Note: The LED Cube itself is simplified in this schema\n(ERC fails are related to that)
+Wire Notes Line
+	3550 3600 550  3600
+Wire Notes Line
+	550  3600 550  600 
+Wire Notes Line
+	550  600  3550 600 
+Wire Notes Line
+	3550 600  3550 3600
+Wire Notes Line
+	3650 600  3650 4050
+Wire Notes Line
+	3650 4050 6600 4050
+Wire Notes Line
+	6600 4050 6600 600 
+Wire Notes Line
+	6600 600  3650 600 
+Wire Notes Line
+	3500 3750 600  3750
+Wire Notes Line
+	600  3750 600  6700
+Wire Notes Line
+	600  6700 3500 6700
+Wire Notes Line
+	3500 6700 3500 3750
+Wire Notes Line
+	8800 2450 8800 600 
+Wire Notes Line
+	8800 600  6700 600 
+Wire Notes Line
+	6700 600  6700 2450
+Wire Notes Line
+	6700 2450 8800 2450
 $EndSCHEMATC
