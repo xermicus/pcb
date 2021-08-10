@@ -721,45 +721,45 @@ Connection ~ 3400 2750
 $Comp
 L Transistor_BJT:PN2222A Q3
 U 1 1 610B975C
-P 2300 3800
-F 0 "Q3" H 2490 3846 50  0000 L CNN
-F 1 "PN2222A" H 2490 3755 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 2500 3725 50  0001 L CIN
-F 3 "https://www.onsemi.com/pub/Collateral/PN2222-D.PDF" H 2300 3800 50  0001 L CNN
-	1    2300 3800
+P 2650 3800
+F 0 "Q3" H 2840 3846 50  0000 L CNN
+F 1 "PN2222A" H 2840 3755 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 2850 3725 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/PN2222-D.PDF" H 2650 3800 50  0001 L CNN
+	1    2650 3800
 	1    0    0    -1  
 $EndComp
 $Comp
 L Transistor_BJT:PN2222A Q2
 U 1 1 610BA815
-P 1800 4350
-F 0 "Q2" H 1990 4396 50  0000 L CNN
-F 1 "PN2222A" H 1990 4305 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 2000 4275 50  0001 L CIN
-F 3 "https://www.onsemi.com/pub/Collateral/PN2222-D.PDF" H 1800 4350 50  0001 L CNN
-	1    1800 4350
+P 1300 4700
+F 0 "Q2" H 1490 4746 50  0000 L CNN
+F 1 "PN2222A" H 1490 4655 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 1500 4625 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/PN2222-D.PDF" H 1300 4700 50  0001 L CNN
+	1    1300 4700
 	1    0    0    -1  
 $EndComp
 $Comp
 L Transistor_BJT:PN2222A Q4
 U 1 1 610E6DE4
-P 2800 4350
-F 0 "Q4" H 2990 4396 50  0000 L CNN
-F 1 "PN2222A" H 2990 4305 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 3000 4275 50  0001 L CIN
-F 3 "https://www.onsemi.com/pub/Collateral/PN2222-D.PDF" H 2800 4350 50  0001 L CNN
-	1    2800 4350
+P 2650 4700
+F 0 "Q4" H 2840 4746 50  0000 L CNN
+F 1 "PN2222A" H 2840 4655 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 2850 4625 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/PN2222-D.PDF" H 2650 4700 50  0001 L CNN
+	1    2650 4700
 	1    0    0    -1  
 $EndComp
 $Comp
 L Transistor_BJT:PN2222A Q5
 U 1 1 610E745F
-P 3300 3800
-F 0 "Q5" H 3490 3846 50  0000 L CNN
-F 1 "PN2222A" H 3490 3755 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 3500 3725 50  0001 L CIN
-F 3 "https://www.onsemi.com/pub/Collateral/PN2222-D.PDF" H 3300 3800 50  0001 L CNN
-	1    3300 3800
+P 3950 4750
+F 0 "Q5" H 4140 4796 50  0000 L CNN
+F 1 "PN2222A" H 4140 4705 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 4150 4675 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/PN2222-D.PDF" H 3950 4750 50  0001 L CNN
+	1    3950 4750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -895,34 +895,24 @@ Wire Wire Line
 	5200 1400 5350 1400
 Text Label 6200 2800 0    50   ~ 0
 U4_B
-Text Label 1400 4350 0    50   ~ 0
+Text Label 1100 4400 0    50   ~ 0
 U4_B
 Text Label 6200 2700 0    50   ~ 0
 U4_A
-Text Label 900  3800 0    50   ~ 0
+Text Label 1100 3500 0    50   ~ 0
 U4_A
-Wire Wire Line
-	900  3800 1100 3800
-Wire Wire Line
-	1400 4350 1600 4350
 Text Label 6200 2900 0    50   ~ 0
 U4_C
-Text Label 2000 3800 0    50   ~ 0
+Text Label 2450 3500 0    50   ~ 0
 U4_C
-Wire Wire Line
-	2000 3800 2100 3800
 Text Label 6200 3000 0    50   ~ 0
 U4_D
-Text Label 2400 4350 0    50   ~ 0
+Text Label 2450 4400 0    50   ~ 0
 U4_D
-Wire Wire Line
-	2600 4350 2400 4350
 Text Label 6200 3100 0    50   ~ 0
 U4_E
-Text Label 2950 3800 0    50   ~ 0
+Text Label 3750 4450 0    50   ~ 0
 U4_E
-Wire Wire Line
-	2950 3800 3100 3800
 Text Label 6200 3200 0    50   ~ 0
 U4_F
 Text Label 3000 2800 0    50   ~ 0
@@ -1039,13 +1029,13 @@ Text Label 7250 2200 0    50   ~ 0
 GND
 Text Label 1400 4200 0    50   ~ 0
 GND
-Text Label 1900 4750 0    50   ~ 0
+Text Label 1400 5100 0    50   ~ 0
 GND
-Text Label 2400 4200 0    50   ~ 0
+Text Label 2750 4200 0    50   ~ 0
 GND
-Text Label 2900 4750 0    50   ~ 0
+Text Label 2750 5100 0    50   ~ 0
 GND
-Text Label 3400 4150 0    50   ~ 0
+Text Label 4050 5100 0    50   ~ 0
 GND
 $Comp
 L Connector_Generic_MountingPin:Conn_01x05_MountingPin J1
@@ -1053,7 +1043,7 @@ U 1 1 613CF10D
 P 7650 2000
 F 0 "J1" H 7738 1964 50  0000 L CNN
 F 1 "Conn_01x05_MountingPin" H 7738 1873 50  0000 L CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_1x05_P2.00mm_Vertical" H 7650 2000 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 7650 2000 50  0001 C CNN
 F 3 "~" H 7650 2000 50  0001 C CNN
 	1    7650 2000
 	1    0    0    -1  
@@ -1079,15 +1069,15 @@ Wire Wire Line
 Wire Wire Line
 	6200 2200 5750 2200
 Wire Wire Line
-	3400 4000 3400 4150
+	4050 4950 4050 5100
 Wire Wire Line
-	2900 4750 2900 4550
+	2750 5100 2750 4900
 Wire Wire Line
-	1900 4750 1900 4550
+	1400 5100 1400 4900
 Wire Wire Line
 	1400 4000 1400 4200
 Wire Wire Line
-	2400 4200 2400 4000
+	2750 4200 2750 4000
 Wire Wire Line
 	4450 2200 3900 2200
 Wire Wire Line
@@ -1302,45 +1292,100 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_01x01 J6
 U 1 1 611441A3
-P 3600 3600
-F 0 "J6" H 3680 3642 50  0000 L CNN
-F 1 "Conn_01x01" H 3680 3551 50  0000 L CNN
-F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 3600 3600 50  0001 C CNN
-F 3 "~" H 3600 3600 50  0001 C CNN
-	1    3600 3600
+P 4250 4550
+F 0 "J6" H 4330 4592 50  0000 L CNN
+F 1 "Conn_01x01" H 4330 4501 50  0000 L CNN
+F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 4250 4550 50  0001 C CNN
+F 3 "~" H 4250 4550 50  0001 C CNN
+	1    4250 4550
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x01 J5
 U 1 1 61143AA4
-P 3100 4150
-F 0 "J5" H 3180 4192 50  0000 L CNN
-F 1 "Conn_01x01" H 3180 4101 50  0000 L CNN
-F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 3100 4150 50  0001 C CNN
-F 3 "~" H 3100 4150 50  0001 C CNN
-	1    3100 4150
+P 2950 4500
+F 0 "J5" H 3030 4542 50  0000 L CNN
+F 1 "Conn_01x01" H 3030 4451 50  0000 L CNN
+F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 2950 4500 50  0001 C CNN
+F 3 "~" H 2950 4500 50  0001 C CNN
+	1    2950 4500
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x01 J3
 U 1 1 61142E71
-P 2100 4150
-F 0 "J3" H 2180 4192 50  0000 L CNN
-F 1 "Conn_01x01" H 2180 4101 50  0000 L CNN
-F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 2100 4150 50  0001 C CNN
-F 3 "~" H 2100 4150 50  0001 C CNN
-	1    2100 4150
+P 1600 4500
+F 0 "J3" H 1680 4542 50  0000 L CNN
+F 1 "Conn_01x01" H 1680 4451 50  0000 L CNN
+F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 1600 4500 50  0001 C CNN
+F 3 "~" H 1600 4500 50  0001 C CNN
+	1    1600 4500
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x01 J4
 U 1 1 61143492
-P 2600 3600
-F 0 "J4" H 2680 3642 50  0000 L CNN
-F 1 "Conn_01x01" H 2680 3551 50  0000 L CNN
-F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 2600 3600 50  0001 C CNN
-F 3 "~" H 2600 3600 50  0001 C CNN
-	1    2600 3600
+P 2950 3600
+F 0 "J4" H 3030 3642 50  0000 L CNN
+F 1 "Conn_01x01" H 3030 3551 50  0000 L CNN
+F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 2950 3600 50  0001 C CNN
+F 3 "~" H 2950 3600 50  0001 C CNN
+	1    2950 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R26
+U 1 1 6115B9FB
+P 1100 3650
+F 0 "R26" H 1170 3696 50  0000 L CNN
+F 1 "510" H 1170 3605 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1030 3650 50  0001 C CNN
+F 3 "~" H 1100 3650 50  0001 C CNN
+	1    1100 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R28
+U 1 1 6117195B
+P 2450 3650
+F 0 "R28" H 2520 3696 50  0000 L CNN
+F 1 "510" H 2520 3605 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2380 3650 50  0001 C CNN
+F 3 "~" H 2450 3650 50  0001 C CNN
+	1    2450 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R27
+U 1 1 61171FE9
+P 1100 4550
+F 0 "R27" H 1170 4596 50  0000 L CNN
+F 1 "510" H 1170 4505 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1030 4550 50  0001 C CNN
+F 3 "~" H 1100 4550 50  0001 C CNN
+	1    1100 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R29
+U 1 1 611727CC
+P 2450 4550
+F 0 "R29" H 2520 4596 50  0000 L CNN
+F 1 "510" H 2520 4505 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2380 4550 50  0001 C CNN
+F 3 "~" H 2450 4550 50  0001 C CNN
+	1    2450 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R30
+U 1 1 61172EF5
+P 3750 4600
+F 0 "R30" H 3820 4646 50  0000 L CNN
+F 1 "510" H 3820 4555 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3680 4600 50  0001 C CNN
+F 3 "~" H 3750 4600 50  0001 C CNN
+	1    3750 4600
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
